@@ -183,7 +183,9 @@ h2 {
 
 .title-img {
   width: clamp(90px, 18vw, 190px);
-   flex-shrink: 0;
+   flex-shrink: 0;      /* don’t let image shrink */
+  align-self: center;   /* vertically center relative to multi-line heading */
+  margin-left: 1vw;  
 }
 
 .bigger{
@@ -244,8 +246,9 @@ h2 {
 }
 
 .longerheading {
-  font-size: 8vw;
-  max-width: 48%;
+  display: block;       /* safer inside flex */
+  flex-shrink: 1;       /* allow heading to shrink */
+  min-width: 0; 
 }
 
 .longestheading {
