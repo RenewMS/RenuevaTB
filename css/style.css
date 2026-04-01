@@ -46,6 +46,9 @@ nav a {
   font-family: "BerlinSansFB", sans-serif;
   letter-spacing: 1px;
   font-size: clamp(12px, 1.6vw, 22px);
+
+  height: 100%;
+  box-sizing: border-box;
 }
 
 nav {
