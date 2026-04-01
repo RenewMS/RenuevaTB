@@ -72,7 +72,9 @@ h1 {
   margin: 0;
   letter-spacing: 1px;
   max-width: 80%;
-  display: inline-block;
+  flex-shrink: 1;
+  min-width: 0;
+  display: block;
 }
 
 h2 {
@@ -181,6 +183,7 @@ h2 {
 
 .title-img {
   width: clamp(90px, 18vw, 190px);
+   flex-shrink: 0;
 }
 
 .bigger{
