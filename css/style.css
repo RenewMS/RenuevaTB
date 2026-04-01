@@ -67,7 +67,7 @@ nav a.active {
 
 h1 {
   font-family: "BaksoSapi", sans-serif;
-  font-size: 10vw;
+  font-size: clamp(28px, 8vw, 80px);
   color: #001d4a;
   margin: 0;
   letter-spacing: 1px;
@@ -180,7 +180,7 @@ h2 {
 
 
 .title-img {
-  width: clamp(120px, 18vw, 190px);
+  width: clamp(90px, 18vw, 190px);
 }
 
 .bigger{
