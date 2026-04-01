@@ -69,7 +69,7 @@ h1 {
   font-family: "BaksoSapi", sans-serif;
   font-size: 10vw;
   color: #001d4a;
-  margin: 0, 0, 0, 2vw;
+  margin: 0;
   letter-spacing: 1px;
   margin-top: 0;
 }
@@ -172,8 +172,8 @@ h2 {
 .title-container {
   display: flex;
   align-items: center;
-  gap: 20px;
-  justify-content: flex-start;
+  gap: 10px;
+  padding-left: 2vw;
 }
 
 
