@@ -275,7 +275,7 @@ h2 {
   }
   
   h1 {
-    font-size: 12vw;
+    font-size: 9vw;
     margin-top: 20px;
   }
   .subtitle{
@@ -307,13 +307,17 @@ h2 {
   max-width: 60%;
 }
   .title-container {
-    gap: 1px;
+    gap: 8px;
   }
 
   .title-img {
-  width: 14vw;
+  width: 22vw;
 }
-
+  
+.bigger {
+  width: 24vw;
+}
+  
   .body1 {
     font-size: 3vw;
     margin-top: 5vw;
