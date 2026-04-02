@@ -360,3 +360,11 @@ h2 {
 strong, b {
   font-weight: bold;
 }
+
+nav ul li {
+  margin-bottom: 0; /* keep nav tight */
+}
+
+ul li {
+  margin-bottom: 10px;
+}
