@@ -344,3 +344,15 @@ h2 {
 .white {
   color: #001d4a;
 }
+
+.image-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.image-grid figcaption {
+  margin-top: 8px;
+  font-family: "BerlinSansFB", sans-serif;
+  font-size: clamp(12px, 1.5vw, 18px);
+  color: #001d4a;
+}
